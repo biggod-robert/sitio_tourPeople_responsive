@@ -1,0 +1,222 @@
+
+body{
+    background-image: url("../img/fond.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contenedorcentral {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    overflow: hidden;
+    
+}
+
+.filtro {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 56, 56, 0.534);
+}
+
+.contenedorcentral h1 {
+    color: white;
+}
+
+.container {
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+
+.col-md-6 h1 {
+    font-family: pacifico;
+    font-size: 2.3em;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+.col-md-6 {
+    width: 70%;
+}
+
+p {
+    font-size: 50px;
+    color: rgb(40, 223, 223);
+    text-align: center;
+
+
+}
+
+
+.contenedorcentral h1 {
+    margin-top: 180px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedorcentral p {
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 50px;
+    line-height: 1.1;
+    letter-spacing: -3px;
+}
+
+.content {
+    flex: 1;
+}
+
+
+@media (max-width: 576px) {
+    p {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+
+.container .row {
+    text-align: center;
+}
+.col-md-6 h1{
+    font-family: pacifico;
+    font-size: 2.4em;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+
+.wave-container {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+
+
+.carrus-fluid{
+    width: 68vh;
+    height: 45vh;
+}
+
+
+/*botones para dirigir a nueva pagina*/
+
+.button{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a7474;
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 3%;
+    border: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-text {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.button-icon {
+    width: 24px;
+    height: auto;
+    margin-left: 10px;
+}
+.button:hover {
+    background-color: #0dd2f5;
+}
+
+
+.curved{
+    background-color: aliceblue;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(18, 16, 16, 0.4);
+}
+.curved h1{
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+
+.curved p{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 5rem 0 5rem;
+}
+
+.curved svg{
+    display: block;
+
+}
+
+.curve {
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    
+    background-color:  rgba(18, 16, 16, 0.4);
+
+    /* Color de fondo de la onda */
+}
+
+.curve {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.curve svg {
+    display: block;
+    width: calc(90% + 1.8px);
+    height: 100%;
+    
+}
+
+
+/*parte del inicio de sesion*/
+
+
+.curver{
+    background-color: rgba(18, 16, 16, 0.4);
+}
+
+.centro_quienes_somos{
+    width: 100%;
+    height: 100%;
+    
+}
+
